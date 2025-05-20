@@ -16,7 +16,7 @@ class Conta:
 
 
 def main():
-    c1 = Conta(123489, 18432839475, "Victor", 1000)
+    c1 = Conta(123489, 18432839475, "Victor", 1001)
     c1.depositar(1000)  # Chamando metodo depositar para c1(cliente 1)
     c1.gerar_extrato()  # Chamando metodo que mostra o extrato
     c1.sacar(500)  # Chamando metodo de sacar para c1
